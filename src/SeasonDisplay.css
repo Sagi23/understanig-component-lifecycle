@@ -1,0 +1,33 @@
+.SeasonDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.winter {
+  background-color: aliceblue;
+}
+
+.SeasonDisplay.winter i {
+  color: blue;
+}
+.SeasonDisplay.summer i {
+  color: red;
+}
+
+.summer {
+  background-color: orange;
+}
